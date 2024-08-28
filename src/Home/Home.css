@@ -1,0 +1,57 @@
+.home-container {
+  background-color: white;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.contents-container {
+  position: relative;
+}
+
+.kitty-image {
+  width: 120px;
+  border-radius: 20px;
+}
+.kitty-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  justify-content: center;
+  position: relative;
+}
+
+.yes-container {
+  padding: 10px;
+}
+
+.yes-container p {
+  padding: 4px;
+  font-size: 18px;
+}
+.main-para {
+  font-size: 20px;
+  padding: 4px;
+}
+
+.buttons-container button {
+  padding: 10px 18px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  background-color: lavender;
+  border-radius: 5px;
+}
+
+.no-button {
+  transition: all 0.3s ease;
+}
