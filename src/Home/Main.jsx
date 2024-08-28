@@ -10,7 +10,7 @@ const Home = () => {
     const distance = Math.hypot(button.x - e.clientX, button.y - e.clientY);
 
     if (distance < 100) {
-      const maxHeight = Math.min(window.innerHeight - button.height, 180);
+      const maxHeight = Math.min(window.innerHeight - button.height, 200);
       const maxWidth = Math.min(window.innerWidth - button.width, 180);
       const newTop = Math.random() * maxHeight + "px";
       const newLeft = Math.random() * maxWidth + "px";
@@ -27,7 +27,7 @@ const Home = () => {
     );
 
     if (distance < 100) {
-      const maxHeight = Math.min(window.innerHeight - button.height, 180); // Ensure within screen height
+      const maxHeight = Math.min(window.innerHeight - button.height, 200); // Ensure within screen height
       const maxWidth = Math.min(window.innerWidth - button.width, 180); // Ensure within screen width
       const newTop = Math.random() * maxHeight + "px";
       const newLeft = Math.random() * maxWidth + "px";

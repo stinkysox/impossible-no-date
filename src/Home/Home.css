@@ -36,7 +36,8 @@
 
 .yes-container p {
   padding: 4px;
-  font-size: 18px;
+  padding-bottom: 10px;
+  font-size: 16px;
 }
 .main-para {
   font-size: 16px;
